@@ -5,7 +5,7 @@ let socket = null;
 
 export const getSocket = () => {
     if (!socket) {
-        socket = io.connect("http://localhost:5000");
+        socket = io.connect("https://realtimechatappb.onrender.com");
     }
     return socket;
 };
